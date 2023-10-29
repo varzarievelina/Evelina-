@@ -7,8 +7,9 @@ h1 {
 }
 
 .head1 {
-background-color: aqua;
+    background-color: aqua;
 }
+
 #head2 {
     background-color: red;
     color: white;
