@@ -14,3 +14,17 @@ h1 {
     background-color: red;
     color: white;
 }
+/* style.css */
+div {
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  
+  h1 {
+    background-color: blue;
+    color: white;
+  }
+  
+  a + a {
+    background-color: red;
+  }
