@@ -73,7 +73,7 @@ a + a {
   background-color: red;
 }
 p::before {
-  content: ‘Hello’;
+  content: Hello;
   color: red;
   font-weight: bold;
 }
@@ -84,7 +84,7 @@ p:hover {
 }
 
 p::after {
-  content: ‘ Bye!’;
+  content:  Bye!;
   color: red;
   font-weight: bold;
 }
