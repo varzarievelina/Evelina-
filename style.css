@@ -72,10 +72,6 @@ a > h1 {
 a + a {
   background-color: red;
 }
-p:hover {
-  color: limegreen;
-  font-weight: bold;
-}
 
 /* Visibility property */
 .visible {
