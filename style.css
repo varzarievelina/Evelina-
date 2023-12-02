@@ -73,25 +73,25 @@ a + a {
   background-color: red;
 }
 
-/* Style only for the 'paint me!' text */
-p::before {
+/* Style specifically for the <p> tag within the given HTML structure */
+body > p::before {
   content: 'Hello';
   color: red;
   font-weight: bold;
 }
 
-p:hover {
-  color: green;
+body > p:hover {
+  color: limegreen;
   font-weight: bold;
 }
 
-p::after {
+body > p::after {
   content: ' Bye!';
   color: red;
   font-weight: bold;
 }
 
-p::selection {
-  background-color: purple;
-  color: white; /* Added a color value */
+body > p::selection {
+  background-color: white;
+  color: black; /* Added a color value */
 }
