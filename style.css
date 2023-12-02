@@ -59,3 +59,16 @@ footer {
   font-weight: 900;
   color: yellow;
 }
+div a {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+a > h1 {
+  background-color: darkblue;
+  color: white;
+}
+
+a + a {
+  background-color: red;
+}
