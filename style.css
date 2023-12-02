@@ -148,13 +148,14 @@ h3 {
 
 .footer {
   background-color: rgb(37, 27, 27);
-  height: 100px;
   height: 20px;
+  height: 100px;
+
 }
 
 
 img {
   width: 100%;
-  
+
   filter: grayscale(100%) invert(100%);
 }
