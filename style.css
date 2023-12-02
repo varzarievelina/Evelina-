@@ -72,21 +72,25 @@ a > h1 {
 a + a {
   background-color: red;
 }
+
 p:hover {
   color: green;
   font-weight: bold;
 }
+
 p::before {
-  content: Hello;
+  content: 'Hello ';
   color: red;
   font-weight: bold;
 }
+
 p::after {
-  content:  Bye!;
+  content:  'Bye!';
   color: red;
   font-weight: bold;
 }
 
 p::selection {
-  background-color: white;
+  background-color: purple;
+  color: white;
 }
