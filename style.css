@@ -72,10 +72,7 @@ a > h1 {
 a + a {
   background-color: red;
 }
-/* Styling specifically for the <p>paint me!</p> element */
-
-p {
-  /* Your styles for the 'paint me!' paragraph */
+p:hover {
   color: limegreen;
   font-weight: bold;
 }
@@ -87,12 +84,12 @@ p::before {
 }
 
 p::after {
-  content: ' Bye!';
+  content:  'Bye!';
   color: red;
   font-weight: bold;
 }
 
 p::selection {
-  background-color: purple;
+  background-color:purple;
   color: white;
 }
