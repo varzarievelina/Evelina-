@@ -141,34 +141,25 @@ h3 {
 img:active {
     /* Your styles for active images */
 }
-
-/* Keyframes animation */
-@keyframes my-animation {
-    /* Define keyframes for animation */
+ /* Define keyframes for animation */
     from {
         background-color: white; /* Initial color */
         /* Additional properties for the starting state */
     }
     to {
-        background-color: red; /* Final color */
+        background-color: lightpink; /* Final color */
         /* Additional properties for the ending state */
     }
 }
 
-/* Apply the animation to the body of the third instance */
-body:nth-of-type(3) {
+body {
     /* Define styles for the body */
     /* Add properties as needed */
     animation: my-animation 2s; /* Apply the animation to the body */
-}
-
-/* Styling for the image within the third instance */
-body:nth-of-type(3) img {
+    }
+  img  {
     width: 500px;
-    transition: width 0.5s; /* Transition for width change */
-}
-
-/* Style for image when active (clicked) within the third instance */
-body:nth-of-type(3) img:active {
-    width: 800px; /* Adjusted width */
-}
+    transition: o,5s;
+  }
+  img:active {
+    width: 800px;
