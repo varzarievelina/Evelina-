@@ -147,15 +147,14 @@ img:active {
         /* Additional properties for the starting state */
     }
     to {
-        background-color: lightpink; /* Final color */
+        background-color: red; /* Final color */
         /* Additional properties for the ending state */
     }
 }
 
 body {
-    /* Define styles for the body */
-    /* Add properties as needed */
-    animation: my-animation 2s; /* Apply the animation to the body */
+  
+    animation: my-animation 2s; 
     }
   img  {
     width: 500px;
@@ -163,3 +162,4 @@ body {
   }
   img:active {
     width: 800px;
+        }
