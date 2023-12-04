@@ -137,7 +137,28 @@ h3 {
   background-color: aquamarine;
   text-align: center;
 }
+/* style.css */
+img:active {
+    /* Your styles for active images */
+}
 
+@keyframes my-animation {
+    /* Define keyframes for animation */
+    from {
+        background-color: white; /* Initial color */
+        /* Additional properties for the starting state */
+    }
+    to {
+        background-color: red; /* Final color */
+        /* Additional properties for the ending state */
+    }
+}
+
+body {
+    /* Define styles for the body */
+    /* Add properties as needed */
+    animation: my-animation 2s; /* Apply the animation to the body */
+}
 
 
 }
