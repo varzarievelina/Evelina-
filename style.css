@@ -143,11 +143,11 @@ h3 {
 }
 /* Specific reset for margin and padding within the specific structure */
 .nav, .banner, .content, .footer {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-/* Navigation styling */
+/* Navigation styling */   
 .nav {
   background-color: rgb(253, 185, 185);
   height: 20px;
@@ -158,7 +158,7 @@ h3 {
 
 /* Banner styling */
 .banner {
-  background-color: aqua; /* Replace with aqua */
+  background-color: aqua; /* Replace ■aquai with aqua */
   height: 200px;
 }
 
@@ -174,8 +174,8 @@ h3 {
   height: 100px;
 }
 
-/* Image styling for the specific banner image */
-.banner img {
+/* Image styling */
+img {
   width: 100%;
   filter: grayscale(100%) invert(100%);
 }
