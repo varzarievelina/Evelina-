@@ -158,7 +158,11 @@ body {
     /* Define styles for the body */
     /* Add properties as needed */
     animation: my-animation 2s; /* Apply the animation to the body */
-}
-
-
+    }
+  img  {
+    width: 500px;
+    transition: o,5s;
+  }
+  img:active {
+    width: 800px;
 }
