@@ -142,6 +142,7 @@ img:active {
     /* Your styles for active images */
 }
 
+/* Keyframes animation */
 @keyframes my-animation {
     /* Define keyframes for animation */
     from {
@@ -154,15 +155,20 @@ img:active {
     }
 }
 
-body {
+/* Apply the animation to the body of the third instance */
+body:nth-of-type(3) {
     /* Define styles for the body */
     /* Add properties as needed */
     animation: my-animation 2s; /* Apply the animation to the body */
-    }
-  img  {
+}
+
+/* Styling for the image within the third instance */
+body:nth-of-type(3) img {
     width: 500px;
-    transition: o,5s;
-  }
-  img:active {
-    width: 800px;
+    transition: width 0.5s; /* Transition for width change */
+}
+
+/* Style for image when active (clicked) within the third instance */
+body:nth-of-type(3) img:active {
+    width: 800px; /* Adjusted width */
 }
