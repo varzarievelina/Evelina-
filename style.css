@@ -142,7 +142,7 @@ h3 {
 
 }
 /* Specific reset for margin and padding within the specific structure */
-div, img, a {
+.nav, .banner, .content, .footer {
   margin: 0;
   padding: 0;
 }
@@ -158,7 +158,7 @@ div, img, a {
 
 /* Banner styling */
 .banner {
-  background-color: aqua; /* Replace ■aquai with aqua */
+  background-color: aqua; /* Replace with aqua */
   height: 200px;
 }
 
@@ -175,8 +175,7 @@ div, img, a {
 }
 
 /* Image styling for the specific banner image */
-.banner .banner-image {
+.banner img {
   width: 100%;
   filter: grayscale(100%) invert(100%);
 }
-
