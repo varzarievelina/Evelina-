@@ -157,3 +157,29 @@ body {
   img:active {
     width: 800px;
         }
+/* Reset for margin and padding within the specific structure */
+body.unique-index > * {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation styling */
+body.unique-index .nav {
+  background-color: rgb(253, 185, 185);
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Banner styling */
+body.unique-index .banner {
+  background-color: aqua; /* Replace ■aquai with aqua */
+  height: 200px;
+}
+
+/* Image styling specifically for the image inside the .banner div */
+body.unique-index .banner img {
+  width: 100%;
+  filter: grayscale(100%) invert(100%);
+}
