@@ -164,7 +164,7 @@ body.unique-index > * {
 }
 
 /* Navigation styling */
-body.unique-index .nav {
+ .nav {
   background-color: rgb(253, 185, 185);
   height: 20px;
   padding: 10px;
@@ -173,7 +173,7 @@ body.unique-index .nav {
 }
 
 /* Banner styling */
-body.unique-index .banner {
+.banner {
   background-color: aqua; /* Replace ■aquai with aqua */
   height: 200px;
 }
