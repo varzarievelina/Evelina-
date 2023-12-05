@@ -142,7 +142,7 @@ h3 {
         background-color: white;     
     }
     to {
-        background-color: red;
+        background-color: lightpurple;
     }
 }
 
@@ -158,13 +158,16 @@ body {
     width: 800px;
         }
 /* Reset for margin and padding within the specific structure */
-body.unique-index > * {
+.index-page .nav,
+.index-page .banner,
+.index-page .content,
+.index-page .footer {
   padding: 0;
   margin: 0;
 }
 
 /* Navigation styling */
- .nav {
+.index-page .nav {
   background-color: rgb(253, 185, 185);
   height: 20px;
   padding: 10px;
@@ -173,7 +176,7 @@ body.unique-index > * {
 }
 
 /* Banner styling */
-.banner {
+.index-page .banner {
   background-color: aqua; /* Replace ■aquai with aqua */
   height: 200px;
 }
@@ -185,9 +188,8 @@ body.unique-index > * {
   background-color: rgb(37,27,27);
   height:20px;
     height:100px;
-}
 /* Image styling specifically for the image inside the .banner div */
-body.unique-index .banner img {
+.index-page .banner img {
   width: 100%;
   filter: grayscale(100%) invert(100%);
 }
