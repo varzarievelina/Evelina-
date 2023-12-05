@@ -177,7 +177,15 @@ body.unique-index .banner {
   background-color: aqua; /* Replace ■aquai with aqua */
   height: 200px;
 }
-
+.content {
+  background-color: rgb(246,213,213);
+    height:400px;
+}
+.footer {
+  background-color: rgb(37,27,27);
+  height:20px;
+    height:100px;
+}
 /* Image styling specifically for the image inside the .banner div */
 body.unique-index .banner img {
   width: 100%;
